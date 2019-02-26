@@ -1,4 +1,4 @@
-# PotatoRTS
+# Crop's Kingdom
 
 PotatoRTS is my entry for GameLoop's RTS class ([GL-RTS](https://forum.gameloop.it/d/566-gl-rts-build-a-multiplayer-rts-with-gameloop)).
 
