@@ -14,6 +14,10 @@ To do so, you can build your vegetable-kingdom by recruiting your army, collecti
 * Improving my network programming skills
 * Creating a multiplayer, wannabe-competitive game experience (in the end)
 
+## Networking
+
+Networking code is based on [this library](https://github.com/GameLoop-it/GameLoop.Networking) I am writing for this class, in order to teach people network programming basics.
+
 ## Factions
 
 I start with few factions (I think Potatoes and Tomatoes, just for testing), but of course any vegetable can be a faction. When I'll complete this project, I'll take care of adding more factions (eggplants, carrots, etc).
