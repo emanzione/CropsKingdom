@@ -4,7 +4,7 @@ Crop's Kingdom is my entry for GameLoop's RTS class ([GL-RTS](https://forum.game
 
 ## Introduction
 
-The game is a multiplayer real-time strategy battle among atleast 2 players (up to 6). Every player starts as a vegetable-faction with a king (a controllable unit), the headquarter and a builder. The objective is to kill others' kings while defending your own. If your king dies, you lose the game.
+The game is a multiplayer real-time strategy battle among atleast 2 players (up to 6). Every player starts as a vegetable-faction with a king (a controllable unit), the headquarter and a worker. The objective is to kill others' kings while defending your own. If your king dies, you lose the game.
 
 To do so, you can build your vegetable-kingdom by recruiting your army, collecting resources, creating new buildings, advancing in the technology tree faster than your opponents, etc.
 
@@ -28,14 +28,14 @@ Factions have different graphics, matching with the different vegetable they rep
 Units are controllable entities that can perform specific tasks for you. You can't create more units than the current maximum units limit.
 
 * __*King*__: the most important unit. It has special faction abilities and protecting its life is your interest in order to win the game. When there are no allied buildings in its range, it starts to lose HP.
-* __*Builder*__: the unit who can create buildings by spending resources, loot resources from the environment and work in buildings if needed. Low HP, usually no special abilities.
+* __*Worker*__: the unit who can create buildings by spending resources, loot resources from the environment and work in buildings if needed. Low HP, usually no special abilities.
 * __*Fighter*__: the unit who can deal damage to opponent units and buildings. There are multiple types of fighters: ranged dps, melee dps, melee tank. They can have different statistics, abilities and spells based on their faction.
 
 ## Buildings
 
 Buildings are units with fixed position and specific behaviors. They allow you to unlock some features, they can be destroyed by yourself or by the enemy units. They cannot be moved.
 
-* __*Headquarter*__: it produces builders and has some powerups/abilities based on the faction. From this building the water irrigation starts. _If you lose it and you have no builders, you basically can't build anything anymore!_
+* __*Headquarter*__: it produces workers and has some powerups/abilities based on the faction. From this building the water irrigation starts. _If you lose it and you have no workers, you basically can't build anything anymore!_
 * __*Garden*__: it produces fighters, by seeding the terrain.
 * __*Botanic Lab*__: it allows you to unlock new abilities and technologies by investing resources and time.
 * __*House*__: it allows you to increase the maximum units limit in order to create more units.
@@ -46,7 +46,7 @@ Buildings are units with fixed position and specific behaviors. They allow you t
 
 Resources can be produced and extracted from the environment or with specific buildings/units. They allow you to build everything in your kingdom.
 
-* __*Wood*__: it can be extracted with a builder from surrounding trees.
+* __*Wood*__: it can be extracted with a worker from surrounding trees.
 * __*Compost*__: the main currency in this world.
 * __*Water*__: the main source of energy in this world.
 
