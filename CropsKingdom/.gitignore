@@ -18,6 +18,8 @@ x64/
 [Ll]ogs/
 .vs/
 .idea/
+Assets/Plugins/Editor/JetBrains/
+Assets/Plugins/Editor/JetBrains.meta
 
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
 !packages/*/build/
