@@ -57,10 +57,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CropsKingdom\Core\Components\FactionSpawner.cs" />
-    <Compile Include="Assets\CropsKingdom\Core\Components\PlayerInputComponent.cs" />
-    <Compile Include="Assets\CropsKingdom\Core\Systems\FactionSpawnerSystem.cs" />
-    <Compile Include="Assets\CropsKingdom\Core\Systems\PlayerInputSystem.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\EntityType.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\FactionSpawnerProxy.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\FactionSpawnerSystem.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\Buffers\ByteConverter.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\Buffers\NetworkReader.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\Buffers\NetworkWriter.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\Memory\IMemoryAllocator.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\Memory\IMemoryPool.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\Memory\SimpleManagedAllocator.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\Memory\SimpleMemoryPool.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\NetworkBootstrapper.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\NetworkConnector.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\NetworkEntity.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\NetworkManager.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\NetworkMessageTag.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\NetworkRemoteEntity.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\NetworkSync.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Networking\Plugins\ENet.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Players\Input\PlayerInputComponent.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Players\Input\PlayerInputSystem.cs" />
     <Compile Include="Assets\CropsKingdom\Core\Units\Components\Fighter.cs" />
     <Compile Include="Assets\CropsKingdom\Core\Units\Components\King.cs" />
     <Compile Include="Assets\CropsKingdom\Core\Units\Components\Worker.cs" />
