@@ -1,4 +1,4 @@
-namespace CropsKingdom.Core.Units
+namespace CropsKingdom.Core.Entities.Units
 {
     public enum UnitType : byte
     {

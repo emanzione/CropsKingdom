@@ -57,9 +57,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CropsKingdom\Core\Entities\Buildings\Building.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Entities\Entity.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Entities\Units\Unit.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Entities\Units\UnitType.cs" />
     <Compile Include="Assets\CropsKingdom\Core\EntityType.cs" />
-    <Compile Include="Assets\CropsKingdom\Core\FactionSpawnerProxy.cs" />
-    <Compile Include="Assets\CropsKingdom\Core\FactionSpawnerSystem.cs" />
     <Compile Include="Assets\CropsKingdom\Core\Networking\Buffers\ByteConverter.cs" />
     <Compile Include="Assets\CropsKingdom\Core\Networking\Buffers\NetworkReader.cs" />
     <Compile Include="Assets\CropsKingdom\Core\Networking\Buffers\NetworkWriter.cs" />
@@ -75,12 +77,9 @@
     <Compile Include="Assets\CropsKingdom\Core\Networking\NetworkRemoteEntity.cs" />
     <Compile Include="Assets\CropsKingdom\Core\Networking\NetworkSync.cs" />
     <Compile Include="Assets\CropsKingdom\Core\Networking\Plugins\ENet.cs" />
-    <Compile Include="Assets\CropsKingdom\Core\Players\Input\PlayerInputComponent.cs" />
-    <Compile Include="Assets\CropsKingdom\Core\Players\Input\PlayerInputSystem.cs" />
-    <Compile Include="Assets\CropsKingdom\Core\Units\Components\Fighter.cs" />
-    <Compile Include="Assets\CropsKingdom\Core\Units\Components\King.cs" />
-    <Compile Include="Assets\CropsKingdom\Core\Units\Components\Worker.cs" />
-    <Compile Include="Assets\CropsKingdom\Core\Units\UnitType.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Players\Camera\CameraController.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Players\Selection\EntitySelection.cs" />
+    <Compile Include="Assets\CropsKingdom\Core\Utilities\RotateObject.cs" />
     <Reference Include="Unity.Entities.Properties">
       <HintPath>D:/Lavori/GameLoop/GameLoop.RTS/CropsKingdom/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
     </Reference>
