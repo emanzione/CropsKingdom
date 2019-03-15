@@ -210,9 +210,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PanSpeed: 10
   PanBorderThreshold: 10
-  PanLimit: {x: 12, y: 12}
+  PanLimit: {x: 20, y: 25}
   ZoomSpeed: 10
-  ZoomLimit: 10
+  ZoomLimit: 20
 --- !u!114 &84814764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,7 +438,7 @@ PrefabInstance:
     - target: {fileID: 8830213549141792664, guid: 3d6fb521925a49047a1d783eaf971595,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8830213549141792664, guid: 3d6fb521925a49047a1d783eaf971595,
         type: 3}

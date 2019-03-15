@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using ENet;
 using GameLoop.Networking.Buffers;
@@ -6,29 +7,24 @@ using UnityEngine;
 
 namespace CropsKingdom.Core.Networking
 {
-    public class NetworkBootstrapper : MonoBehaviour
+    public class NetworkServerManager : MonoBehaviour
     {
-        public static NetworkBootstrapper Instance;
+        public static NetworkServerManager Instance;
         public IMemoryPool MemoryPool;
         private NetworkServer _server;
-        private List<NetworkEntity> _entities;
+
+        public event EventHandler<Peer> OnConnectionEvent;
+        public event EventHandler<Peer> OnDisconnectionEvent;
         
         protected void Awake()
         {
             var allocator = new SimpleManagedAllocator();
             MemoryPool = new SimpleMemoryPool(allocator);
-            _entities = new List<NetworkEntity>();
             Instance = this;
             _server = NetworkManager.InitializeServer(50000);
             _server.OnConnection = OnConnection;
             _server.OnDisconnection = OnDisconnection;
             _server.OnData = OnData;
-        }
-
-        public void RegisterEntity(NetworkEntity entity)
-        {
-            entity.Id = _entities.Count;
-            _entities.Add(entity);
         }
 
         public void SendAll(ref NetworkWriter message)
@@ -50,31 +46,13 @@ namespace CropsKingdom.Core.Networking
         private void OnDisconnection(Peer peer)
         {
             Debug.Log("Disconnection from " + peer.IP + ":" + peer.Port.ToString());
+            OnDisconnectionEvent?.Invoke(this, peer);
         }
 
         private void OnConnection(Peer peer)
         {
             Debug.Log("Connection from " + peer.IP + ":" + peer.Port.ToString());
-
-            foreach (var entity in _entities)
-            {
-                var writer = default(NetworkWriter);
-                writer.Initialize(MemoryPool, 18);
-                
-                writer.Write((byte)NetworkMessageTag.EntitySpawn);
-                writer.Write(entity.Id);
-                writer.Write((byte)entity.Type);
-                
-                var position = entity.transform.position;
-                writer.Write(position.x);
-                writer.Write(position.y);
-                writer.Write(position.z);
-
-                var packet = new Packet();
-                packet.Create(writer.GetBuffer());
-                peer.Send(0, ref packet);
-                packet.Dispose();
-            }
+            OnConnectionEvent?.Invoke(this, peer);
         }
 
         private void Update()

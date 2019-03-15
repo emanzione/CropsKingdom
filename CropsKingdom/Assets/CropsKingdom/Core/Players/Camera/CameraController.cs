@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 namespace CropsKingdom.Core.Players.Camera
@@ -42,21 +43,25 @@ namespace CropsKingdom.Core.Players.Camera
             transform.position = currentPosition;
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private bool CanMoveUp()
         {
             return Input.GetKey(KeyCode.W) || Input.mousePosition.y >= Screen.height - PanBorderThreshold;
         }
         
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private bool CanMoveDown()
         {
             return Input.GetKey(KeyCode.S) || Input.mousePosition.y <= PanBorderThreshold;
         }
         
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private bool CanMoveLeft()
         {
             return Input.GetKey(KeyCode.A) || Input.mousePosition.x <= PanBorderThreshold;
         }
         
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private bool CanMoveRight()
         {
             return Input.GetKey(KeyCode.D) || Input.mousePosition.x >= Screen.width - PanBorderThreshold;

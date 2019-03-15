@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b56badd5-77d5-45af-8e6f-145f27990799" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Entities/Buildings/Building.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Entities/Buildings/Building.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Entities/Entity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Entities/Entity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Entities/Units/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Entities/Units/Unit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Networking/Memory/SimpleManagedAllocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Networking/Memory/SimpleManagedAllocator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Networking/Memory/SimpleMemoryPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Networking/Memory/SimpleMemoryPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Networking/NetworkBootstrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Networking/NetworkServerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Networking/NetworkBootstrapper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Networking/NetworkServerManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Networking/NetworkEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Networking/NetworkEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Networking/NetworkSync.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Networking/NetworkSync.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Players/Camera/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Players/Camera/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Players/Selection/EntitySelection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Core/Players/Selection/EntitySelection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Graphics/Selector/SelectionExternalMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Graphics/Selector/SelectionExternalMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Graphics/Selector/SelectionInternalMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Graphics/Selector/SelectionInternalMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Prefabs/Environment.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Prefabs/Environment.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Scenes/Client.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Scenes/Client.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Scenes/Server.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../CropsKingdom/Assets/CropsKingdom/Scenes/Server.unity" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CropsKingdom.Gameplay/World.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1120">
+              <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+              <folding>
+                <marker date="1552589718415" expanded="false" signature="6:170" ph="..." />
+                <marker date="1552589718415" expanded="true" signature="203:2076" ph="{...}" />
+                <marker date="1552589718415" expanded="true" signature="235:2074" ph="{...}" />
+                <marker date="1552589718415" expanded="true" signature="523:773" ph="{...}" />
+                <marker date="1552589718415" expanded="true" signature="810:908" ph="{...}" />
+                <marker date="1552589718415" expanded="true" signature="941:1471" ph="{...}" />
+                <marker date="1552589718415" expanded="true" signature="1028:1461" ph="{...}" />
+                <marker date="1552589718415" expanded="true" signature="1228:1330" ph="{...}" />
+                <marker date="1552589718415" expanded="true" signature="1351:1447" ph="{...}" />
+                <marker date="1552589718415" expanded="true" signature="1558:1669" ph="{...}" />
+                <marker date="1552589718415" expanded="true" signature="1702:1882" ph="{...}" />
+                <marker date="1552589718415" expanded="true" signature="1725:1872" ph="/* Simulate the whole game. ... */" />
+                <marker date="1552589718415" expanded="true" signature="1930:1963" ph="{...}" />
+                <marker date="1552589718415" expanded="true" signature="2000:2068" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CropsKingdom.Gameplay/Entities/IComponent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding>
+                <marker date="1552669120124" expanded="true" signature="40:97" ph="{...}" />
+                <marker date="1552669120124" expanded="true" signature="74:95" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CropsKingdom.Gameplay/Entities/EntityManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+              <folding>
+                <marker date="1552660497051" expanded="false" signature="6:136" ph="..." />
+                <marker date="1552660497051" expanded="true" signature="178:5021" ph="{...}" />
+                <marker date="1552660497051" expanded="true" signature="211:5019" ph="{...}" />
+                <marker date="1552660497051" expanded="false" signature="461:1597" ph="{...}" />
+                <marker date="1552660497051" expanded="true" signature="691:1543" ph="/* Reserved entity at index 0. ... */" />
+                <marker date="1552660497051" expanded="false" signature="1636:1691" ph="{...}" />
+                <marker date="1552660497051" expanded="false" signature="1726:1799" ph="{...}" />
+                <marker date="1552660497051" expanded="false" signature="1845:2391" ph="{...}" />
+                <marker date="1552660497051" expanded="true" signature="1930:2085" ph="{...}" />
+                <marker date="1552660497051" expanded="true" signature="2102:2190" ph="{...}" />
+                <marker date="1552660497051" expanded="false" signature="2441:3108" ph="{...}" />
+                <marker date="1552660497051" expanded="true" signature="2617:2869" ph="/* I will not decrement the entities counter. I will do it in RecompactEntities function, usually ... */" />
+                <marker date="1552660497051" expanded="false" signature="3149:4140" ph="{...}" />
+                <marker date="1552660497051" expanded="true" signature="3172:3341" ph="/* Locking at this time should be ok: no contention should happen, since this is the last function called ... */" />
+                <marker date="1552660497051" expanded="true" signature="3454:4116" ph="{...}" />
+                <marker date="1552660497051" expanded="true" signature="3786:3954" ph="/* This is a little bit counter-intuitive: when I destroy an entity, I don't decrement this counter. ... */" />
+                <marker date="1552660497051" expanded="false" signature="4244:4301" ph="{...}" />
+                <marker date="1552660497051" expanded="false" signature="4421:4664" ph="{...}" />
+                <marker date="1552660497051" expanded="true" signature="4471:4654" ph="{...}" />
+                <marker date="1552660497051" expanded="false" signature="4781:5013" ph="{...}" />
+                <marker date="1552660497051" expanded="true" signature="4860:5003" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/1c/bd712047/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CropsKingdom.Gameplay/World.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CropsKingdom.Gameplay/Entities/EntityManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CropsKingdom.Gameplay/Entities/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CropsKingdom.Gameplay/Entities/IComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CropsKingdom.Gameplay.Tests/EntityManagerTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/540A30D0-A031-4084-807D-B058D5033896/9a/c353dbd4/IndexOutOfRangeException.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WorldGrid.cs" />
+        <option value="$PROJECT_DIR$/World.cs" />
+        <option value="$PROJECT_DIR$/Entities/EntityContainer.cs" />
+        <option value="$PROJECT_DIR$/Entities/Collections/EntityCollection.cs" />
+        <option value="$PROJECT_DIR$/Entities/Entity.cs" />
+        <option value="$PROJECT_DIR$/Entities/EntityCollection.cs" />
+        <option value="$PROJECT_DIR$/Entities/EntityManager.cs" />
+        <option value="$PROJECT_DIR$/CropsKingdom.Gameplay.Tests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/CropsKingdom.Gameplay/World.cs" />
+        <option value="$PROJECT_DIR$/CropsKingdom.Gameplay/Entities/Entity.cs" />
+        <option value="$PROJECT_DIR$/CropsKingdom.Gameplay/Entities/EntityManager.cs" />
+        <option value="$PROJECT_DIR$/CropsKingdom.Gameplay.Tests/EntityManagerTests.cs" />
+        <option value="$PROJECT_DIR$/CropsKingdom.Gameplay/Entities/IComponent.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CropsKingdom.Gameplay" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CropsKingdom.Gameplay" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CropsKingdom.Gameplay" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CropsKingdom.Gameplay" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CropsKingdom.Gameplay" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Entities" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CropsKingdom.Gameplay" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CropsKingdom.Gameplay.Tests" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CropsKingdom.Gameplay.Tests/CropsKingdom.Gameplay.Tests.csproj" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b56badd5-77d5-45af-8e6f-145f27990799" name="Default Changelist" comment="" />
+      <created>1552478339493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552478339493</updated>
+      <workItem from="1552478343843" duration="33000" />
+      <workItem from="1552478439792" duration="6309000" />
+      <workItem from="1552553602904" duration="7412000" />
+      <workItem from="1552577518773" duration="13186000" />
+      <workItem from="1552641052127" duration="12483000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39423000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16364606" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9376333" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.06236674" side_tool="true" weight="0.3997833" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Cargo" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Errors In Solution" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/World.cs" />
+    <entry file="file://$PROJECT_DIR$/Entities/EntityManager.cs" />
+    <entry file="file://$PROJECT_DIR$/obj/Debug/netcoreapp2.1/CropsKingdom.Gameplay.AssemblyInfo.cs" />
+    <entry file="file://$PROJECT_DIR$/Entities/Entity.cs" />
+    <entry file="file://$PROJECT_DIR$/WorldGrid.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/540A30D0-A031-4084-807D-B058D5033896/9a/c353dbd4/IndexOutOfRangeException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/1c/bd712047/TestInvoker`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="161" column="6" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CropsKingdom.Gameplay/Entities/Entity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+          <folding>
+            <marker date="1552649595551" expanded="true" signature="55:887" ph="{...}" />
+            <marker date="1552649595551" expanded="true" signature="103:885" ph="{...}" />
+            <marker date="1552649595551" expanded="true" signature="204:269" ph="{...}" />
+            <marker date="1552649595551" expanded="true" signature="341:403" ph="{...}" />
+            <marker date="1552649595551" expanded="true" signature="445:500" ph="{...}" />
+            <marker date="1552649595551" expanded="true" signature="549:684" ph="{...}" />
+            <marker date="1552649595551" expanded="true" signature="727:770" ph="{...}" />
+            <marker date="1552649595551" expanded="true" signature="813:879" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CropsKingdom.Gameplay.Tests/EntityManagerTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="203" column="52" selection-start-line="203" selection-start-column="52" selection-end-line="203" selection-end-column="52" />
+          <folding>
+            <marker date="1552661254266" expanded="false" signature="6:146" ph="..." />
+            <marker date="1552661254266" expanded="true" signature="185:6512" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="223:6510" ph="{...}" />
+            <marker date="1552661254266" expanded="false" signature="362:432" ph="{...}" />
+            <marker date="1552661254266" expanded="false" signature="489:846" ph="{...}" />
+            <marker date="1552661254266" expanded="false" signature="919:1963" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="1215:1297" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="1494:1840" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="1610:1826" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="1724:1808" ph="{...}" />
+            <marker date="1552661254266" expanded="false" signature="2036:3226" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="2365:2514" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="2757:3103" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="2873:3089" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="2987:3071" ph="{...}" />
+            <marker date="1552661254266" expanded="false" signature="3306:4826" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="3700:4114" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="3811:4098" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="3894:4080" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="4357:4703" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="4473:4689" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="4587:4671" ph="{...}" />
+            <marker date="1552661254266" expanded="false" signature="4882:5315" ph="{...}" />
+            <marker date="1552661254266" expanded="true" signature="5375:6504" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CropsKingdom.Gameplay/World.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+          <folding>
+            <marker date="1552589718415" expanded="false" signature="6:170" ph="..." />
+            <marker date="1552589718415" expanded="true" signature="203:2076" ph="{...}" />
+            <marker date="1552589718415" expanded="true" signature="235:2074" ph="{...}" />
+            <marker date="1552589718415" expanded="true" signature="523:773" ph="{...}" />
+            <marker date="1552589718415" expanded="true" signature="810:908" ph="{...}" />
+            <marker date="1552589718415" expanded="true" signature="941:1471" ph="{...}" />
+            <marker date="1552589718415" expanded="true" signature="1028:1461" ph="{...}" />
+            <marker date="1552589718415" expanded="true" signature="1228:1330" ph="{...}" />
+            <marker date="1552589718415" expanded="true" signature="1351:1447" ph="{...}" />
+            <marker date="1552589718415" expanded="true" signature="1558:1669" ph="{...}" />
+            <marker date="1552589718415" expanded="true" signature="1702:1882" ph="{...}" />
+            <marker date="1552589718415" expanded="true" signature="1725:1872" ph="/* Simulate the whole game. ... */" />
+            <marker date="1552589718415" expanded="true" signature="1930:1963" ph="{...}" />
+            <marker date="1552589718415" expanded="true" signature="2000:2068" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CropsKingdom.Gameplay/Entities/IComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <marker date="1552669120124" expanded="true" signature="40:97" ph="{...}" />
+            <marker date="1552669120124" expanded="true" signature="74:95" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CropsKingdom.Gameplay/Entities/EntityManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <marker date="1552660497051" expanded="false" signature="6:136" ph="..." />
+            <marker date="1552660497051" expanded="true" signature="178:5021" ph="{...}" />
+            <marker date="1552660497051" expanded="true" signature="211:5019" ph="{...}" />
+            <marker date="1552660497051" expanded="false" signature="461:1597" ph="{...}" />
+            <marker date="1552660497051" expanded="true" signature="691:1543" ph="/* Reserved entity at index 0. ... */" />
+            <marker date="1552660497051" expanded="false" signature="1636:1691" ph="{...}" />
+            <marker date="1552660497051" expanded="false" signature="1726:1799" ph="{...}" />
+            <marker date="1552660497051" expanded="false" signature="1845:2391" ph="{...}" />
+            <marker date="1552660497051" expanded="true" signature="1930:2085" ph="{...}" />
+            <marker date="1552660497051" expanded="true" signature="2102:2190" ph="{...}" />
+            <marker date="1552660497051" expanded="false" signature="2441:3108" ph="{...}" />
+            <marker date="1552660497051" expanded="true" signature="2617:2869" ph="/* I will not decrement the entities counter. I will do it in RecompactEntities function, usually ... */" />
+            <marker date="1552660497051" expanded="false" signature="3149:4140" ph="{...}" />
+            <marker date="1552660497051" expanded="true" signature="3172:3341" ph="/* Locking at this time should be ok: no contention should happen, since this is the last function called ... */" />
+            <marker date="1552660497051" expanded="true" signature="3454:4116" ph="{...}" />
+            <marker date="1552660497051" expanded="true" signature="3786:3954" ph="/* This is a little bit counter-intuitive: when I destroy an entity, I don't decrement this counter. ... */" />
+            <marker date="1552660497051" expanded="false" signature="4244:4301" ph="{...}" />
+            <marker date="1552660497051" expanded="false" signature="4421:4664" ph="{...}" />
+            <marker date="1552660497051" expanded="true" signature="4471:4654" ph="{...}" />
+            <marker date="1552660497051" expanded="false" signature="4781:5013" ph="{...}" />
+            <marker date="1552660497051" expanded="true" signature="4860:5003" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

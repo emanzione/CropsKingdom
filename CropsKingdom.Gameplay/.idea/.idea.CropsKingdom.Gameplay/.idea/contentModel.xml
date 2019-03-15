@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\m4nu_\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\m4nu_\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\m4nu_\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\m4nu_\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\m4nu_\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_CropsKingdom.Gameplay.199221794.00" t="ExcludeRecursive" />
+    <e p="D:\Lavori\GameLoop\GameLoop.RTS\CropsKingdom.Gameplay" t="IncludeFlat">
+      <e p="CropsKingdom.Gameplay" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CropsKingdom.Gameplay.csproj" t="IncludeRecursive" />
+        <e p="Entities" t="Include">
+          <e p="Entity.cs" t="Include" />
+          <e p="EntityManager.cs" t="Include" />
+          <e p="IComponent.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="CropsKingdom.Gameplay.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="World.cs" t="Include" />
+        <e p="WorldGrid.cs" t="Include" />
+      </e>
+      <e p="CropsKingdom.Gameplay.sln" t="IncludeFlat" />
+      <e p="CropsKingdom.Gameplay.Tests" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CropsKingdom.Gameplay.Tests.csproj" t="IncludeRecursive" />
+        <e p="EntityManagerTests.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="CropsKingdom.Gameplay.Tests.AssemblyInfo.cs" t="Include" />
+              <e p="CropsKingdom.Gameplay.Tests.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

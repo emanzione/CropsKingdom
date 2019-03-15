@@ -20,7 +20,7 @@ namespace CropsKingdom.Core.Networking
             if (transform.position != _oldPosition)
             {
                 var writer = default(NetworkWriter);
-                writer.Initialize(NetworkBootstrapper.Instance.MemoryPool, 17);
+                writer.Initialize(NetworkServerManager.Instance.MemoryPool, 17);
                 
                 writer.Write(_tag);
                 writer.Write(_entity.Id);
@@ -30,7 +30,7 @@ namespace CropsKingdom.Core.Networking
                 writer.Write(position.y);
                 writer.Write(position.z);
                 
-                NetworkBootstrapper.Instance.SendAll(ref writer);
+                NetworkServerManager.Instance.SendAll(ref writer);
             }
         }
     }

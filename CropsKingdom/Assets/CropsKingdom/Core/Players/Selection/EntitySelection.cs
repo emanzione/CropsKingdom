@@ -51,6 +51,14 @@ namespace CropsKingdom.Core.Players.Selection
                     SelectedPointer.transform.localScale = Vector3.one;
                 }
             }
+            else if (SelectedEntity != null)
+            {
+                var selectorPosition = SelectedPointer.transform.position;
+                var entityPosition = SelectedEntity.transform.position;
+                selectorPosition.x = entityPosition.x;
+                selectorPosition.z = entityPosition.z;
+                SelectedPointer.transform.position = selectorPosition;
+            }
         }
     }
 }

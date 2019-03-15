@@ -4,6 +4,7 @@ namespace GameLoop.Networking.Memory
 {
     public sealed class SimpleMemoryPool : IMemoryPool
     {
+        public static SimpleMemoryPool Instance = new SimpleMemoryPool(SimpleManagedAllocator.Instance);
         private readonly IMemoryAllocator _allocator;
         
         public SimpleMemoryPool(IMemoryAllocator allocator)
